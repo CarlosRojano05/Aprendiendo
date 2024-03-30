@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Aceites Store - Aceites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="contenedor1"> 
+
+                <!-- Image and text -->
+                <div class="navbar navbar-light " class="logotip">
+
+                    <div> 
+
+                        <a class="navbar-brand" href="index.html" >
+                            <img src="/img/logoo.png" width="100" height="100" class="d-inline-block align-top" alt="">
+                        </div>
+                            <div class="name"> 
+                                
+                                <h1 class="tittle">Aceite Store</h1>
+                            </div>
+                        </a>
+                </div>
+                
+                <div class="navbar navbar-light " >
+                    <form class="form-inline" id="buscar">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="BUSCAR" size="30">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">BUSCAR</button>
+
+                        
+                        <img src="/img/icons8-usuario-50.png"  alt="login" class="login_" >
+                        
+                        <img src="/img/icons8-comprar-50.png" alt="buy" class="carrito_" >
+                        
+                    </form>
+                </div>
+                
+            </div>
+    </header>
+    
+        <nav class="navbar">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link " id="pills-home-tab"  href="index.html" role="tab" aria-controls="pills-home" aria-selected="false">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-profile-tab"  href="/aceites.html" role="tab" aria-controls="pills-profile" aria-selected="true">ACEITES</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">RASTREA TU PEDIDO</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " id="pills-Acerca_de_us" href="Acerca_de_us.html" role="tab" aria-controls="pills-contact" aria-selected="false">ACERCA DE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-PQRS" data-toggle="pill" href="#pills-PQRS" role="tab" aria-controls="pills-PQRS" aria-selected="false">PQRS</a>
+                </li>
+                
+                </ul>
+                <!-- <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+                </div> -->
+        </nav>
+
+        <main class="main_aceites">
+            <div class="container">
+                <div class="imagene_main_aceites">
+                    <img src="/img/aceite-bidon-amarillo.jpg" alt="" class="img-fluid">
+                </div>
+        
+                <div class="text_aceites">
+                    <p><em>Descubre en nuestra tienda en línea una selección excepcional de aceites y lubricantes de primera calidad para mantener tu vehículo en óptimas condiciones. Con marcas líderes como Motul, Mobil, Yamalube, Eni, Castrol, Chevron, Honda, Kixx, Repsol y Shell, ofrecemos una amplia gama de productos para proteger y cuidar el motor de tu moto.</em></p>
+                </div>
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="aceites.html">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </li>
+                         </ul>
+                      </nav>
+
+            </div>
+        </main>        
+        <div class="container">
+            <div class="row productos">
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/m1.jpg" alt="Producto 1" >
+                        <h6>MOTUL</h6>
+                        <h1>Ahora $10.000 | Antes $15.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/m2.jpg" alt="Producto 2" >
+                        <h6>ENERGY PREMIUM</h6>
+                        <h1>$20.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/3.jpg" alt="Producto 3" >
+                        <h6>FASTEN</h6>
+                        <h1>Ahora $13.000 | Antes $18.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 1.jpg" alt="Producto 4" >
+                        <h6>MOTUL</h6>
+                        <h1>$26.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 2.jpg" alt="Producto 5" >
+                        <h6>ENERGY PREMIUM</h6>
+                        <h1>Ahora $10.000 | Antes $15.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 3.jpg" alt="Producto 6" >
+                        <h6>FASTEN</h6>
+                        <h1>$40.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 4.jpg" alt="Producto 7" >
+                        <h6>MOTUL</h6>
+                        <h1>$30.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 5.jpg" alt="Producto 8" >
+                        <h6>ENERGY PREMIUM</h6>
+                        <h1>$22.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="descripcion">
+                        <img src="/img/aceite 6.jpg" alt="Producto 9" >
+                        <h6>FASTEN</h6>
+                        <h1>$50.000</h1>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>   

@@ -1,0 +1,194 @@
+body {
+    margin: 20px;
+}
+
+ .contenedor1{
+    display: flex;
+    justify-content: space-between;
+   
+    
+ }
+
+#buscar {
+    display:flex;
+ }
+
+ .navbar{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .logotip{
+    display:flex;
+ }
+
+
+.login_, .carrito_{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    
+}
+
+#carouselExampleControls{
+    display: flex;
+    margin: 50px;
+}
+
+.productos {
+    margin-top: 20px; /* Espacio en la parte superior */
+    display: flex;
+    flex-wrap: wrap; /* Envolver los elementos cuando no haya suficiente espacio */
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.descripcion {
+    text-align: center; /* Centra el contenido */
+    margin-bottom: 20px; /* Espacio entre los productos */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ddd; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+.descripcion img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: 10%; /* Altura automática para mantener la proporción */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.descripcion h6 {
+    font-size: 18px; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.descripcion button {
+    background-color:white; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: black; /* Borde sin estilo */
+    padding: 8px 16px; /* Espacio interno del botón */
+    border: 1px solid;
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.descripcion button:hover {
+    background-color:black; /* Cambia el color del fondo al pasar el mouse */
+    color:white;
+}
+
+
+.pie{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 80px;
+    background-image: linear-gradient(gold, gold);
+    
+}
+
+.nav-link {
+    color: #000; /* Cambiar color del texto a negro */
+}
+
+.nav-link:hover {
+    color: blue; /* Cambiar color del texto al pasar el mouse a rojo */
+}
+
+.nav-link-custom.active{
+    border-color: black;
+}
+
+.nav-link.active {
+    border-color: black;
+}
+
+/* etilos acerca de nosotros */
+
+.contenido_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido verticalmente */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo_nosotros{
+    max-width: 100%;
+}
+
+.rectangulo {
+    
+    height: auto; /* Altura del rectángulo */
+    border: 1px solid black; /* Borde sólido de 2px en color negro */
+    padding: 20px; /* Espaciado interno del rectángulo */
+    width: 60%; /* Ancho del rectángulo */
+    margin: 0 auto; /* Centra horizontalmente el rectángulo */
+    text-align: left; /* Alinea el texto a la izquierda */
+    
+    ;
+   
+}
+.rectangulo p {
+    
+    text-align: justify; /* Justificar el texto */
+    color: black;
+    margin-bottom: 2em; /* Doble espacio entre párrafos */
+}
+
+.title_main{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+/* estilos aceites */
+
+.main_aceites {
+    text-align: center; /* Centra el contenido del elemento principal */
+}
+
+.container {
+   
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+}
+
+.imagene_main_aceites {
+    margin-top: 40px;
+    margin-bottom: 20px; /* Agrega un espacio entre la imagen y el texto */
+}
+
+.text_aceites {
+    text-align: justify; /* Centra el texto */
+    
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+
+/* Cambiar el color del borde */
+.pagination .page-link {
+    color: #000000; /* Color negro para el texto y números */
+}
+
+/* Cambiar el color del texto y números al pasar el mouse */
+.pagination .page-link:hover,
+.pagination .page-link:focus {
+    background-color: #000;
+    color: #ffffff; /* Cambiar a color blanco cuando se pasa el mouse o se enfoca */
+}
+
+.descripcion h1 {
+    font-size: 100%;
+    color: blue;
+}
+
